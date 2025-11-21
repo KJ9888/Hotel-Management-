@@ -1,0 +1,16 @@
+/* navbar */
+.navbar {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    height: 5rem;
+    background-color: #f8f9fa;
+}
+
+.fa-airbnb{
+    color: #ff5a5f; 
+    font-size: 2.5rem;
+}
+.nav-link{
+    color: black !important;
+    
+}
