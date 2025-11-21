@@ -14,3 +14,83 @@
     color: black !important;
     
 }
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    padding: 2.5rem 0 1.5rem 0;
+    margin-top: 4rem;
+    text-align: center;
+    color: #333;
+}
+
+.f-info {
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.f-info-socials {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.f-info-socials a {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.f-info-socials a:hover {
+    transform: translateY(-3px);
+}
+
+.f-info-socials a:nth-child(1):hover {
+    color: #1877f2;
+}
+
+.f-info-socials a:nth-child(2):hover {
+    color: #1da1f2;
+}
+
+.f-info-socials a:nth-child(3):hover {
+    color: #e4405f;
+}
+
+.f-info-socials a:nth-child(4):hover {
+    color: #0a66c2;
+}
+
+.f-info-socials i {
+    font-size: 1.8rem;
+}
+
+footer > div:nth-child(3) {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.f-info-links {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #dee2e6;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.f-info-links a:hover {
+    color: #ff5a5f;
+    text-decoration: none;
+}
